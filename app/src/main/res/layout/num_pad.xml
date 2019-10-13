@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/num7"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/_7" />
+
+        <Button
+            android:id="@+id/num8"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/_8" />
+
+        <Button
+            android:id="@+id/num9"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/_9" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/num4"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/_4" />
+
+        <Button
+            android:id="@+id/num5"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/_5" />
+
+        <Button
+            android:id="@+id/num6"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/_6" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/num1"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/_1" />
+
+        <Button
+            android:id="@+id/num2"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/_2" />
+
+        <Button
+            android:id="@+id/num3"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/_3" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/num0"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/_0" />
+
+        <Button
+            android:id="@+id/numDot"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/dot" />
+
+        <Button
+            android:id="@+id/numPercent"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="@string/percent" />
+
+    </TableRow>
+
+</TableLayout>
