@@ -21,8 +21,8 @@
     <string name="Multiply">*</string>
     <string name="Subtract">-</string>
     <string name="Add">+</string>
-    <string name="Root">Rt</string>
+    <string name="Root">√</string>
     <string name="Pow">^</string>
-    <string name="Pi">Pi</string>
+    <string name="Pi">π</string>
     <string name="Result">=</string>
 </resources>

@@ -6,31 +6,31 @@
 
     <Button
         android:id="@+id/btnClear"
-        style="@style/MainButton"
+        style="@style/UpperButton"
         android:layout_weight="1"
         android:text="@string/Clear" />
 
     <Button
         android:id="@+id/btnLBracket"
-        style="@style/MainButton"
+        style="@style/UpperButton"
         android:layout_weight="1"
         android:text="@string/LBracket" />
 
     <Button
         android:id="@+id/btnRBracket"
-        style="@style/MainButton"
+        style="@style/UpperButton"
         android:layout_weight="1"
         android:text="@string/RBracket" />
 
     <Button
         android:id="@+id/btnHist"
-        style="@style/MainButton"
+        style="@style/UpperButton"
         android:layout_weight="1"
         android:text="@string/Hist" />
 
     <Button
         android:id="@+id/btnBackspace"
-        style="@style/MainButton"
+        style="@style/UpperButton"
         android:layout_weight="1"
         android:text="@string/Backspace" />
 

@@ -7,19 +7,19 @@
     <TableRow android:layout_weight="1">
 
         <Button
-            android:id="@+id/num7"
+            android:id="@+id/btn7"
             style="@style/NumberButton"
             android:layout_weight="1"
             android:text="@string/_7" />
 
         <Button
-            android:id="@+id/num8"
+            android:id="@+id/btn8"
             style="@style/NumberButton"
             android:layout_weight="1"
             android:text="@string/_8" />
 
         <Button
-            android:id="@+id/num9"
+            android:id="@+id/btn9"
             style="@style/NumberButton"
             android:layout_weight="1"
             android:text="@string/_9" />
@@ -29,19 +29,19 @@
     <TableRow android:layout_weight="1">
 
         <Button
-            android:id="@+id/num4"
+            android:id="@+id/btn4"
             style="@style/NumberButton"
             android:layout_weight="1"
             android:text="@string/_4" />
 
         <Button
-            android:id="@+id/num5"
+            android:id="@+id/btn5"
             style="@style/NumberButton"
             android:layout_weight="1"
             android:text="@string/_5" />
 
         <Button
-            android:id="@+id/num6"
+            android:id="@+id/btn6"
             style="@style/NumberButton"
             android:layout_weight="1"
             android:text="@string/_6" />
@@ -51,19 +51,19 @@
     <TableRow android:layout_weight="1">
 
         <Button
-            android:id="@+id/num1"
+            android:id="@+id/btn1"
             style="@style/NumberButton"
             android:layout_weight="1"
             android:text="@string/_1" />
 
         <Button
-            android:id="@+id/num2"
+            android:id="@+id/btn2"
             style="@style/NumberButton"
             android:layout_weight="1"
             android:text="@string/_2" />
 
         <Button
-            android:id="@+id/num3"
+            android:id="@+id/btn3"
             style="@style/NumberButton"
             android:layout_weight="1"
             android:text="@string/_3" />
@@ -73,22 +73,17 @@
     <TableRow android:layout_weight="1">
 
         <Button
-            android:id="@+id/num0"
+            android:id="@+id/btn0"
             style="@style/NumberButton"
             android:layout_weight="1"
             android:text="@string/_0" />
 
         <Button
-            android:id="@+id/numDot"
+            android:id="@+id/btnDot"
             style="@style/NumberButton"
             android:layout_weight="1"
             android:text="@string/dot" />
 
-        <Button
-            android:id="@+id/numPercent"
-            style="@style/NumberButton"
-            android:layout_weight="1"
-            android:text="@string/percent" />
 
     </TableRow>
 

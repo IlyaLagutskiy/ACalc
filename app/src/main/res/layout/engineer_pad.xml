@@ -2,132 +2,148 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="5dp">
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:paddingLeft="10dp"
-        android:paddingTop="5dp">
+        android:layout_weight="1">
 
         <TableRow android:layout_weight="1">
 
             <Button
+                android:id="@+id/btnMemClear"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="MC" />
 
             <Button
+                android:id="@+id/btnMemAdd"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="M+" />
 
             <Button
+                android:id="@+id/btnMemSub"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="M-" />
 
             <Button
+                android:id="@+id/btnMemPaste"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
-
-            <Button
-                style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="MP" />
 
         </TableRow>
 
         <TableRow android:layout_weight="1">
 
             <Button
+                android:id="@+id/btnSin"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="sin" />
 
             <Button
+                android:id="@+id/btnCos"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="cos" />
 
             <Button
+                android:id="@+id/btnTg"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="tg" />
 
             <Button
+                android:id="@+id/btnCtg"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
-
-            <Button
-                style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="ctg" />
 
         </TableRow>
 
         <TableRow android:layout_weight="1">
 
             <Button
+                android:id="@+id/btnASin"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="asin" />
 
             <Button
+                android:id="@+id/btnACos"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="acos" />
 
             <Button
+                android:id="@+id/btnATg"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="atg" />
 
             <Button
+                android:id="@+id/btnACtg"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
-
-            <Button
-                style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="actg" />
 
         </TableRow>
 
         <TableRow android:layout_weight="1">
 
             <Button
+                android:id="@+id/btnLn"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="ln" />
 
             <Button
+                android:id="@+id/btnLog"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="Log" />
 
             <Button
+                android:id="@+id/btnExp"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="e" />
 
             <Button
+                android:id="@+id/btnFact"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
-
-            <Button
-                style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="x!" />
 
         </TableRow>
 
         <TableRow android:layout_weight="1">
 
             <Button
+                android:id="@+id/btnFabs"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
-
+                android:layout_weight="1"
+                android:text="|x|" />
             <Button
+                android:id="@+id/btnRound"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
-
+                android:layout_weight="1"
+                android:text="INT" />
             <Button
+                android:id="@+id/btnRandom"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
-
+                android:layout_weight="1"
+                android:text="RND" />
             <Button
+                android:id="@+id/btnPercent"
                 style="@style/OperationButton"
-                android:layout_weight="1" />
-
-            <Button
-                style="@style/OperationButton"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="%" />
 
         </TableRow>
 
