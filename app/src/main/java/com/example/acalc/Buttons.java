@@ -27,7 +27,7 @@ public class Buttons {
         ButtonList.put("Multiply", "*");
         ButtonList.put("Subtract", "-");
         ButtonList.put("Add", "+");
-        ButtonList.put("Root", "root(");
+        ButtonList.put("Root", "sqrt(");
         ButtonList.put("Pow", "^");
         ButtonList.put("Pi", "pi");
         ButtonList.put("Result", "=");
